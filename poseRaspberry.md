@@ -202,7 +202,9 @@ print("Modelo incremental salvo como 'pose_classifier_incremental.pkl'")
 cap.release()
 cv2.destroyAllWindows()
 
-~~
+~~~
+
+~~~python
 
 python aplicacao_tempo_real.py
 rm pose_classifier_incremental.pkl
@@ -210,3 +212,5 @@ python3 treinar_modelo.py
 python3 aplicacao_tempo_real.py
 python3 aplicacao_tempo_real.py
 nano pose_classifier_incremental.pkl 
+
+~~~
